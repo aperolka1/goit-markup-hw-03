@@ -26,6 +26,11 @@ h2 {
     letter-spacing: 0.02em;
     text-align: left;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
 /* ============== HEADER STYLES ============== */
 .menu {
     font-family: Roboto, sans-serif;
@@ -101,6 +106,12 @@ h2 {
     color: #404BBF;
 }
 /* ============== /MAIN STYLES ============== */
+.main-sctn {
+    width: 1440px;
+    height: 600px;
+    top: 72px;
+}
+
 .main-heading {
     font-family: Roboto;
     font-size: 56px;
@@ -112,6 +123,8 @@ h2 {
 }
 
 .bttn {
+    max-width: 220px;
+    margin: 0 auto;
     cursor: pointer;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -131,7 +144,10 @@ h2 {
 .ef-solution {
     background-color: #2E2F42;
 }
-/* ============== /SECOND SECTION-OUR BENEFITS ============== */
+/* ============== /FIRST SECTION-OUR BENEFITS ============== */
+.frst-sctn {
+    
+}
 
 .bnfts {
     font-family: Roboto;
