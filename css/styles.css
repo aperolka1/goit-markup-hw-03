@@ -190,8 +190,10 @@ h2 {
     color: #404BBF;
 }
 /* ============== /MAIN STYLES ============== */
-.container.main-sctn {
+.main-sctn {
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 .ef-solution {
@@ -348,6 +350,7 @@ h2 {
 /* ============== /FOOTER ============== */
 .ftr {
     color: #F4F4FD;
+    height: 312px;
     background-color: #2E2F42;
 }
 
