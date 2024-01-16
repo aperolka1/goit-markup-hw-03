@@ -195,8 +195,8 @@ h2 {
 /* ============== /MAIN STYLES ============== */
 .main-sctn {
     display: flex;
+    flex-direction: column;
     padding: 188px 0;
-    text-align: center;
     justify-content: center;
 }
 
@@ -206,9 +206,11 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 188px 0;
 }
 
 .main-heading {
+    margin-bottom: 48px;
     max-width: 496px;
     height: 120px;
     font-family: 'Roboto';
