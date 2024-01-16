@@ -372,12 +372,16 @@ h2 {
 
 /* ============== /FOOTER ============== */
 .ftr {
+    display: flex;
     color: #F4F4FD;
     height: 312px;
     background-color: #2E2F42;
+    padding: 100px 0px;
 }
 
 .logo-sec {
+    display: inline-block;
+    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -392,6 +396,9 @@ h2 {
 }
 
 .ftr-chpt {
+    display: inline-block;
+    max-width: 264px;
+    min-height: 72px;
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
