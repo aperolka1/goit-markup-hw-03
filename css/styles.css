@@ -342,6 +342,11 @@ h2 {
 }
 
 /* ============== /FOURTH SECTION-PORTFOLIO ============== */
+.prtf-sctn {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .prtf {
     font-weight: 500;
     font-size: 20px;
@@ -355,16 +360,16 @@ h2 {
     align-items: flex-start;
     flex-wrap: wrap;
     column-gap: 24px;
+    row-gap: 48px;
 }
 
 .prtf-item {
+    
     object-fit: contain;
     border: 1px solid #E7E9FC;
 }
 
-.prtf-item:nth-child(n+4) {
-    margin-top: 42px;
-}
+
 /* ============== /FOOTER ============== */
 .ftr {
     color: #F4F4FD;
