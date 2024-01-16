@@ -384,6 +384,7 @@ h2 {
 /* ============== /FOOTER ============== */
 .ftr {
     display: flex;
+    flex-direction: column;
     color: #F4F4FD;
     height: 312px;
     background-color: #2E2F42;
