@@ -347,6 +347,10 @@ h2 {
     padding-bottom: 120px;
 }
 
+.prtf-chpt {
+    margin-bottom: 8px;
+}
+
 .prtf {
     font-weight: 500;
     font-size: 20px;
@@ -369,7 +373,7 @@ h2 {
 }
 
 .app-role {
-    padding: 32px 16 px;
+    padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
     margin-bottom: 8px;
