@@ -94,6 +94,7 @@ h2 {
 
 .page-header {
     display: flex;
+    gap: 40px;
     justify-content: space-between;
     border-bottom: 1px solid #E7E9FC;
 }
@@ -257,11 +258,13 @@ h2 {
 .bnfts-list {
     display: flex;
     justify-content: space-between;
-    column-gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    gap: 24px;
 }
 
+.bnf-sctn {
+    padding-top: 120px; 
+    padding-bottom: 120px;
+}
 
 .bnfts {
     margin-bottom: 8px;
