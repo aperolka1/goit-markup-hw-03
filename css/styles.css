@@ -194,26 +194,21 @@ h2 {
     color: #404BBF;
 }
 /* ============== /MAIN STYLES ============== */
-.main-sctn {
-    display: flex;
-    flex-direction: column;
-    padding: 188px 0;
-    justify-content: center;
-}
+
 
 .ef-solution {
     background-color: #2E2F42;
     height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 188px 0;
 }
 
 .main-heading {
+    display: block;
     margin-bottom: 48px;
     max-width: 496px;
     height: 120px;
+    margin-right: auto;
+    margin-left: auto;
     font-family: 'Roboto';
     font-size: 56px;
     font-weight: 700;
@@ -227,12 +222,14 @@ h2 {
 .bttn {
     display: block;
     padding: 16px 32px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 48px;
-    align-items: flex-start;
     gap: 10px;
     border-radius: 4px;
     max-width: 220px;
     min-width: 169px;
+    align-items: flex-start;
     height: 56px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
