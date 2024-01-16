@@ -70,7 +70,7 @@ body {
 }
 
 .container {
-    max-width: 1158px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -95,10 +95,13 @@ h2 {
 .page-header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .header-navigation {
     display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .menu {
@@ -158,7 +161,7 @@ h2 {
 
 .adrs {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 16px;
