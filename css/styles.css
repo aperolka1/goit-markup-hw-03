@@ -192,6 +192,7 @@ h2 {
 /* ============== /MAIN STYLES ============== */
 .main-sctn {
     display: flex;
+    padding: 188px 0;
     text-align: center;
     justify-content: center;
 }
@@ -205,7 +206,7 @@ h2 {
 }
 
 .main-heading {
-    width: 496px;
+    max-width: 496px;
     height: 120px;
     font-family: 'Roboto';
     font-size: 56px;
@@ -225,6 +226,8 @@ h2 {
     gap: 10px;
     border-radius: 4px;
     max-width: 220px;
+    min-width: 169px;
+    height: 56px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
